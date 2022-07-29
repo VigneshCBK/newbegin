@@ -1,0 +1,84 @@
+.contact {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    margin-right: 700px;
+
+}
+
+.contact a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+   padding: 10px;
+}
+
+.media a  {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+.media a:hover{
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background: #106eea;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+}
+
+.media div i {
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.mobile {
+    display: flex;
+    margin-left: 20px;
+}
+
+.mobile span {
+    margin-left: 5px;
+}
+
+.contact {
+    font-style: normal;
+    color: #fff;
+    padding: 10px;
+}
+.mobile {
+    font-style: normal;
+    color: #fff;
+}
+.head{
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 86px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.logo-1 a{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
+.nav-container ul li {
+     list-style: none;
+} 
