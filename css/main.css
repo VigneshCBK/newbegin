@@ -229,7 +229,8 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.features{
+
+.features {
     padding: 60px 0;
     overflow: hidden;
     font-family: "Open Sans", sans-serif;
@@ -239,21 +240,24 @@
     margin: 2px;
 
 }
-.animate-container{
+
+.animate-container {
     opacity: 1;
     transform: translateZ(0);
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.row{
+
+.row {
     display: flex;
     font-family: "Open Sans", sans-serif;
     color: #444444;
-    
- 
-    
+
+
+
 }
-.col1{
+
+.col1 {
     font-family: "Open Sans", sans-serif;
     color: #444444;
     width: 18%;
@@ -261,7 +265,8 @@
     display: block;
     flex: 0 0 auto;
 }
-.icon-box{
+
+.icon-box {
     transition-delay: .1s;
     opacity: 1;
     transform: translateZ(0);
@@ -277,19 +282,22 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.icon{
+
+.icon {
     margin-bottom: 15px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
     box-sizing: border-box;
 }
-.icon i{
+
+.icon i {
     font-size: 48px;
     line-height: 1;
     color: #106eea;
     transition: all 0.3s ease-in-out;
 }
-.icon-box h4{
+
+.icon-box h4 {
     font-weight: 700;
     margin-bottom: 15px;
     font-size: 18px;
@@ -298,7 +306,8 @@
     margin-top: 0;
     color: #444444;
 }
-.icon-box h4 a{
+
+.icon-box h4 a {
     color: #111;
     text-decoration: none;
     font-size: 18px;
@@ -306,7 +315,8 @@
     font-family: "Roboto", sans-serif;
     line-height: 1.2;
 }
-.icon-box h4 p{
+
+.icon-box h4 p {
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 0;
@@ -315,11 +325,13 @@
     color: #444444;
     box-sizing: border-box;
 }
-.col1:hover{
+
+.col1:hover {
     background: #106eea;
     margin-bottom: auto;
 }
-.about{
+
+.about {
     background-color: #f6f9fe;
     padding: 60px 0;
     padding: 50px;
@@ -327,12 +339,13 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.abt{
+
+.abt {
     opacity: 1;
     transform: translateZ(0);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
-    transition-property: opacity,transform;
+    transition-property: opacity, transform;
     max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
@@ -340,13 +353,15 @@
     color: #444444;
 
 }
-.abt-title{
+
+.abt-title {
     text-align: center;
     padding-bottom: 30px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.abt-title h2{
+
+.abt-title h2 {
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -360,7 +375,8 @@
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
-.abt-title h3{
+
+.abt-title h3 {
     margin: 15px 0 0 0;
     font-size: 32px;
     font-weight: 700;
@@ -369,10 +385,12 @@
     text-align: center;
     color: #444444;
 }
-.abt-title h3 span{
+
+.abt-title h3 span {
     color: #106eea;
 }
-.abt-title p{
+
+.abt-title p {
     width: 50%;
     margin: 15px auto 0 auto;
     font-weight: 600;
@@ -380,23 +398,26 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.abt-row{
+
+.abt-row {
     display: flex;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.abt-row .pic{
+
+.abt-row .pic {
     transition-delay: .1s;
     opacity: 1;
     transform: translateZ(0);
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
-    transition-property: opacity,transform;
+    transition-property: opacity, transform;
     flex: 0 0 auto;
     width: 50%;
     max-width: 100%;
 }
-.abt-row .pic img{
+
+.abt-row .pic img {
     width: 650px;
     padding: 30px;
     max-width: 100%;
@@ -405,21 +426,23 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.data-content{
+
+.data-content {
     transition-delay: .1s;
     opacity: 1;
     transform: translateZ(0);
-    justify-content: center!important;
-    padding-top: 0!important;
-    flex-direction: column!important;
-    display: flex!important;
+    justify-content: center !important;
+    padding-top: 0 !important;
+    flex-direction: column !important;
+    display: flex !important;
     flex: 0 0 auto;
     width: 50%;
     max-width: 100%;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.data-content h3{
+
+.data-content h3 {
     font-weight: 600;
     font-size: 26px;
     font-family: "Roboto", sans-serif;
@@ -433,8 +456,9 @@
     margin-inline-end: 0px;
     color: #444444;
 }
-.data-content p{
-    font-style: italic!important;
+
+.data-content p {
+    font-style: italic !important;
     margin-top: 0;
     margin-bottom: 1rem;
     display: block;
@@ -446,7 +470,8 @@
     color: #444444;
 
 }
-.data-content ul{
+
+.data-content ul {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -457,7 +482,8 @@
     color: #444444;
 
 }
-.data-content ul li{
+
+.data-content ul li {
     margin-top: 35px;
     display: flex;
     align-items: flex-start;
@@ -467,7 +493,8 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.data-content ul li i{
+
+.data-content ul li i {
     background: #fff;
     box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
     font-size: 24px;
@@ -475,7 +502,7 @@
     margin-right: 15px;
     color: #106eea;
     border-radius: 50px;
-    font-family: boxicons!important;
+    font-family: boxicons !important;
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
@@ -488,11 +515,13 @@
     list-style: none;
     content: "\ec2f";
 }
-.data-content ul li div{
+
+.data-content ul li div {
     list-style: none;
 
 }
-.data-content ul li h5{
+
+.data-content ul li h5 {
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
@@ -505,7 +534,8 @@
     text-align: -webkit-match-parent;
     list-style: none;
 }
-.data-content ul li p{
+
+.data-content ul li p {
     margin-bottom: 0;
     font-size: 15px;
     margin-top: 0;
@@ -518,7 +548,8 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.data-content .last-para{
+
+.data-content .last-para {
     margin-bottom: 0;
     margin-top: 0;
     display: block;
@@ -528,5 +559,205 @@
     margin-inline-end: 0px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.skills {
+    padding: 60px 0;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.skill.container {
+    opacity: 1;
+    transform: translateZ(0);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    max-width: 1320px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.skill-row {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    box-sizing: border-box;
+    display: flex;
+    margin: 20px;
+
+
+
+}
+
+.skill-sec {
+    flex: 0 0 auto;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    padding-left: 20px;
+}
+
+.progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    overflow: hidden;
+}
+
+.progress span {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+}
+
+.progress span i {
+    float: right;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.prog-bar {
+    background: #e2eefd;
+    height: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.p1{
+    height: 10px;
+    transition: 0.9s;
+    background-color: #106eea;
+}
+.count{
+    padding: 70px 0 60px;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.count-container{
+    opacity: 1;
+    transform: translateZ(0);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.count-row{
+    display: flex;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    
+}
+.count-sec{
+    flex: 0 0 auto;
+    width: 25%;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    padding-left: 32px;
+}
+.count-box{
+    padding: 30px 30px 25px 30px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    background: #f1f6fe;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.count-box i{
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #106eea;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    line-height: 0;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+
+}
+.count-box span{
+    padding: 5px;
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #062b5b;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.count-box p{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #444444;
+}
+.new-div1{
+    width: 50%;
+}
+.new-div2{
+    width: 50%;
+}
+.new-div3{
+    width: 50%;
+}
+.new-div4{
+    width: 50%;
+}
+.client{
+    padding: 15px 0;
+    text-align: center;
+    background-color: #f6f9fe;
+}
+.cli-container{
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+    transition-duration: 1s;
+    transition-property: opacity,transform;
+    max-width: 1320px;
+    text-align: center;
+   
+}
+.cli-row{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: -20px;
+
+}
+.cli-box{
+    text-align: center;
+    align-items: center!important;
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    max-width: 100%;
+}
+.cli-box img{   
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    height: auto;
 }
