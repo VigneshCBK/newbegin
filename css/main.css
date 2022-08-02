@@ -775,7 +775,6 @@
     transition-timing-function: ease-in-out;
     transition-duration: 1s;
     transition-property: opacity,transform;
-    max-width: 1320px;
     margin-right: auto;
     margin-left: auto;
     font-family: "Open Sans", sans-serif;
@@ -832,23 +831,60 @@
 
 }
 .ser-row{
-    display: flex;
-    flex-wrap: wrap;
     font-family: "Open Sans", sans-serif;
     color: #444444;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 180px;
 }
-.zoom-box{
-    display: flex;
-    flex-wrap: wrap;
-    transition-delay: .1s;
-    opacity: 1;
-    transform: translateZ(0) scale(1);
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-    transition-property: opacity,transform;
-    font-family: "Open Sans", sans-serif;
-    color: #444444;
-
+.zoom-box1{
+    width: 300px;
+    padding-inline: 10px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px;
+    
+   
+}
+.zoom-box2{
+    width: 300px;
+    padding-inline: 10px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px;
+    margin-left: 30px;
+}
+.zoom-box3{
+    width: 300px;
+    padding-inline: 10px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px;
+    margin-left: 30px;
+}
+.zoom-box4{
+    width: 300px;
+    padding-inline: 10px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px;
+    
+}
+.zoom-box5{
+    width: 300px;
+    padding-inline: 10px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px;
+    margin-left: 30px;
+}
+.zoom-box6{
+    width: 300px;
+    padding-inline: 10px;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 3px 6px;
+    margin-left: 30px;
 }
 .sericon-box{
     text-align: center;
@@ -920,4 +956,219 @@
     text-align: center;
     font-family: "Open Sans", sans-serif;
     color: #444444;
+}
+.testimonial{
+    padding: 80px 0;
+    background: url(../img/testimonials-bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.testimonial ::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+/* .test-container{
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-property: opacity,transform;
+    max-width: 1320px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+} */
+.slider{
+    transition-delay: .1s;
+    opacity: 1;
+    transform: translateZ(0);
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    transition-duration: 1s;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.swipper-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.swipper-slider{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.test-img{
+    text-align: center;
+    color: #fff;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+
+}
+.test-img img{
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.15);
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+}
+.test-img h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    list-style: none;
+
+}
+.test-img h4{
+    font-size: 14px;
+    color: #ddd;
+    margin: 0 0 15px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center  ;
+}
+.test-img p{
+    width: 80%;
+    font-style: italic;
+    margin: 0 auto 15px auto;
+    color: #eee;
+    text-align: center;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+}
+.test-img p i{
+    display: inline-block;
+    left: -5px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 26px;
+}
+.portfolio{
+    padding: 60px 0;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.port-container{
+    opacity: 1;
+    transform: translateZ(0);
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.port-title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.port-title h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+}
+.port-title h3{
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    line-height: 1.2;
+    color: #444444;
+
+}
+.port-title h3 span{
+    color: #106eea;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.port-title p{
+    width: 50%;
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+}
+.small-row{
+    transition-delay: .1s;
+    opacity: 1;
+    transform: translateZ(0);
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.small-flex{
+    /* display: flex;
+    justify-content: center; */
+    flex: 0 0 auto;
+    display: flex!important;
+    justify-content: center!important;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;  
+
+}
+.port-filter{
+    margin: 0 auto 15px auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px 15px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.port-filter{
+    color: #106eea;
 }
