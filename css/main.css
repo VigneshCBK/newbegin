@@ -293,7 +293,7 @@
 .icon i {
     font-size: 48px;
     line-height: 1;
-    color: #106eea;
+    color:#222222;
     transition: all 0.3s ease-in-out;
 }
 
@@ -304,11 +304,11 @@
     font-family: "Roboto", sans-serif;
     line-height: 1.2;
     margin-top: 0;
-    color: #444444;
+    color: #555555;
 }
 
 .icon-box h4 a {
-    color: #111;
+    color: #555555;
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
@@ -316,19 +316,20 @@
     line-height: 1.2;
 }
 
-.icon-box h4 p {
+.icon-box  p {
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 0;
     margin-top: 0;
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #555555;
     box-sizing: border-box;
 }
 
-.col1:hover {
-    background: #106eea;
-    margin-bottom: auto;
+.row :hover {
+background-color: #106eea;
+color: #fff;
+
 }
 
 .about {
@@ -1532,4 +1533,147 @@ display: flex;
     text-decoration: none;
     text-align: center;
 
+}
+.na{
+    text-decoration: line-through;
+}
+.price-box1 h3{
+    background: #106eea;
+    color: #fff;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.price-box1{
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+}
+.price-box1 h4 sub{
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+    position: relative;
+    line-height: 0;
+    vertical-align: baseline;
+    color: #106eea;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.price-box1 h4{
+    font-size: 36px;
+    color: #106eea;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 1.2;
+    text-align: center;
+}
+.price-box1 h4 span{
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.price-box1 ul{
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.price-box1 ul li{
+    padding-bottom: 16px;
+    list-style: none;
+    color: #444444;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.rippon h3{
+    transform: rotate(45deg);
+    background-color: #106eea;
+    padding: 10px;
+    margin-right: -150px;
+    color: #ddd;
+    margin-top: -61px;
+    padding-left: 172px;
+}
+.faq{
+    padding: 60px 0;
+    background-color: #f6f9fe;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.faq-container{
+    opacity: 1;
+    transform: translateZ(0);
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.faq-title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+
+}
+.faq-title h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+
+}
+.faq-title h3{
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    line-height: 1.2;
+    color: #444444;
+
+}
+.faq-title h3 span{
+    color: #106eea;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.faq-title p{
+    width: 50%;
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+    margin: 15px auto 0 auto;
+    font-weight: 600;
 }
