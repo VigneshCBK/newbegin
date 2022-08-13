@@ -136,7 +136,6 @@
     position: relative;
     text-decoration: none;
 }
-
 .hero {
     height: 100vh;
     background-attachment: fixed;
@@ -754,6 +753,9 @@ color: #fff;
     flex: 0 0 auto;
     width: 16.66666667%;
     max-width: 100%;
+}
+.cli-box:hover{
+    transform: scale(1.2);
 }
 .cli-box img{   
     max-width: 45%;
@@ -1731,4 +1733,117 @@ display: flex;
     left: 0;
     top: -2px;
     color: black;
+}
+.contact{
+    padding: 60px 0;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.contact-container{
+    opacity: 1;
+    transform: translateZ(0);
+    max-width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.cont2-title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.cont2-title h2{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.cont2-title h3{
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+    color: #444444;
+}
+.cont2-title h3 span{
+    color: #106eea;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+
+}
+.cont2-title p{
+    width: 50%;
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.row6{
+    margin-top: 20px;
+
+}
+.col6{
+    flex: auto;
+    width: 33.33%;
+}
+.i-fo{
+    margin: 20px;
+    background: #fff;
+    margin-left: 150px;
+}
+.i-fo i{
+    font-size: 20px;
+    color: #e43c5c;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fdeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.i-fo h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #493c3e;
+}
+.i-fo p{
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #816a6e;
+}
+.email{
+    margin-top: 40px;
+}
+.phone{
+    margin-top: 40px;
+}
+.email-form{
+    width: 100%;
+    background: #fff;
+    margin-left: -120px;
+}
+.row6{
+    display: flex;
+    flex-wrap: wrap
 }
