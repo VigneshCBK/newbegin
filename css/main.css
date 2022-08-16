@@ -1,3 +1,7 @@
+.top{
+margin-top: 0;
+
+}
 .contact {
     display: flex;
     font-family: "Open Sans", sans-serif;
@@ -23,6 +27,9 @@
     line-height: 0;
     transition: 0.3s;
     margin-left: 20px;
+}
+.media a i{
+    font-size: 25px;
 }
 
 .media a:hover {
@@ -83,7 +90,7 @@
 .header-container {
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .logo {
@@ -109,6 +116,7 @@
 
 .navbar {
     padding: 0;
+    padding-left: 750px;
 }
 
 .navbar ul {
@@ -119,7 +127,9 @@
     align-items: center;
     padding-top: 25px;
 }
-
+.navbar ul li a:hover{
+    color: #3d80f4;
+}
 .navbar ul li {
     white-space: nowrap;
     padding: 10px 0 10px 28px;
@@ -136,12 +146,13 @@
     position: relative;
     text-decoration: none;
 }
+
 .hero {
     height: 100vh;
-    background-attachment: fixed;
     width: 100%;
     background: url("../img/hero-bg.jpg") top left;
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 
 }
@@ -228,7 +239,9 @@
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-
+.d-flex .vdo:hover{
+color: #106eea;
+}
 .features {
     padding: 60px 0;
     overflow: hidden;
@@ -1734,13 +1747,13 @@ display: flex;
     top: -2px;
     color: black;
 }
-.contact{
+.contacts{
     padding: 60px 0;
     overflow: hidden;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.contact-container{
+.contacts-container{
     opacity: 1;
     transform: translateZ(0);
     max-width: 1320px;
@@ -1749,13 +1762,13 @@ display: flex;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.cont2-title{
+.section-titles{
     text-align: center;
     padding-bottom: 30px;
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
-.cont2-title h2{
+.section-titles h2{
     font-size: 13px;
     letter-spacing: 1px;
     font-weight: 700;
@@ -1770,7 +1783,7 @@ display: flex;
     line-height: 1.2;
     text-align: center;
 }
-.cont2-title h3{
+.section-titles h3{
     margin: 15px 0 0 0;
     font-size: 32px;
     font-weight: 700;
@@ -1779,14 +1792,14 @@ display: flex;
     text-align: center;
     color: #444444;
 }
-.cont2-title h3 span{
+.section-titles h3 span{
     color: #106eea;
     font-size: 32px;
     font-weight: 700;
     font-family: "Roboto", sans-serif;
 
 }
-.cont2-title p{
+.section-titles p{
     width: 50%;
     margin: 15px auto 0 auto;
     font-weight: 600;
@@ -1806,6 +1819,7 @@ display: flex;
     margin: 20px;
     background: #fff;
     margin-left: 150px;
+    
 }
 .i-fo i{
     font-size: 20px;
